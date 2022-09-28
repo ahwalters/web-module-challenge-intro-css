@@ -1,0 +1,184 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/*
+html {
+    height: 1500px;
+}
+*/
+@font-face {
+    font-family: ChelseaMarket;
+    src: url('assets/ChelseaMarket-Regular.ttf');
+}
+
+@font-face {
+    font-family: RobotMono;
+    src: url('assets/RobotoMono-VariableFont_wght.ttf');
+}
+
+header {
+    font-family: 'RobotMono';
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+header .links .plan{
+    color: white;
+    background-color: #FF764E;
+    border-radius: 15% / 60px;
+    position: relative; left:15%;
+    position: absolute; top: 15px;
+    padding: 20px;
+    height: 40px;
+    width: auto;
+    text-decoration: none;
+}
+header .links .learn{
+    color: white;
+    font-size: 16px;
+    background-color: #5ED3EB;
+    border-radius: 15% / 60px; 
+    position: relative; left:45%;
+    position: absolute; top: 15px;
+    padding: 20px;
+    height: 40px;
+    width: auto;
+    text-decoration: none;
+}
+header .links .involve{
+    color: white;
+    font-size: 16px;
+    background-color: #FFCD69;
+    border-radius: 15% / 60px; 
+    position: relative; left:75%; 
+    position: absolute; top: 15px;
+    padding: 20px;
+    height: 40px;
+    width: auto;
+    text-decoration: none;
+}
+header img {
+    border-radius: 50%;
+    position: absolute; top: 12%; left: 15%;
+    height: 325px;
+}
+header h1{
+    font-family: 'ChelseaMarket';
+    font-size: 70px;
+    position: absolute; top: 15%; left: 40%;
+}
+header h2 {
+    font-size: 20px;
+    position: absolute; top: 23%; left: 45%;
+}
+header p {
+    font-size: 20px;
+    position: absolute; top: 27%; left: 50%;
+}
+body{
+    font-family: 'RobotMono';
+}
+body .bolded { 
+    font-weight: bold; 
+}
+body .info{
+    color: white;
+    font-size: 20px;
+    position: absolute; top: 40%; left: 25%;
+    margin: 10px;
+    height: 150px;
+    padding: 15px;
+    text-align: center;
+}
+
+body .info {
+    background-color: #DDB9A3;
+}
+
+body .fire img{
+    position: absolute; top: 54%; left: 45%;
+    height: 250px;
+}
+body .fire p{
+    position: absolute;top: 70%; left: 42%;
+    height: 40px;
+    text-align: center;
+}
+body .camper img{
+    height: 250px;
+    position: absolute; top: 81%; left: 45%;
+}
+body .camper p{
+    position: absolute; top: 100%; left: 42%; 
+    text-align: center;
+}
+footer nav{
+    background-color: #F9E7DC;
+    font-family: 'RobotMono';
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute; top: 2250px;
+    z-index: 10;
+    height: 150px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+footer img {
+    height: auto;
+    width: 100%;
+    position: absolute; top: 1400px; left: -35px;
+    z-index: auto;
+}
+footer .plan{
+    color: white;
+    background-color: #FF764E;
+    border-radius: 15% / 60px;
+    position: absolute; left: 20%; bottom: 50px;
+    padding: 20px;
+    height: 40px;
+    width: auto;
+    text-decoration: none;
+}
+footer .learn{
+    color: white;
+    font-size: 16px;
+    background-color: #5ED3EB;
+    border-radius: 15% / 60px; 
+    position: relative; left:45%;
+    position: absolute; bottom: 50px;
+    padding: 20px;
+    height: 40px;
+    width: auto;
+    text-decoration: none;
+}
+footer .involve{
+    color: white;
+    font-size: 16px;
+    background-color: #FFCD69;
+    border-radius: 15% / 60px; 
+    position: relative; left:75%; 
+    position: absolute; bottom: 50px;
+    padding: 20px;
+    height: 40px;
+    width: auto;
+    text-decoration: none;
+}
